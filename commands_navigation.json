@@ -1,0 +1,44 @@
+[
+  {
+    "action": "SendKey",
+    "keyname": "KEYCODE_HOME"
+  },
+  {
+    "action": "Pause",
+    "time": 1000
+  },
+  {
+    "action": "SendKey",
+    "keyname": "KEYCODE_DPAD_DOWN"
+  },
+  {
+    "action": "Pause",
+    "time": 500
+  },
+  {
+    "action": "SendKey",
+    "keyname": "KEYCODE_DPAD_UP"
+  },
+  {
+    "action": "Pause",
+    "time": 500
+  },
+  {
+    "action": "Repeat",
+    "count": 2,
+    "commands": [
+      {
+        "action": "SendKey",
+        "keyname": "KEYCODE_DPAD_RIGHT"
+      },
+      {
+        "action": "Pause",
+        "time": 500
+      }
+    ]
+  },
+  {
+    "action": "SendKey",
+    "keyname": "KEYCODE_HOME"
+  }
+]

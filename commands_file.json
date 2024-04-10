@@ -1,0 +1,12 @@
+[
+    {"action": "SendKey", "keyname": "KEYCODE_HOME"},
+    {"action": "Pause", "time": 1000},
+    {
+        "action": "Repeat",
+        "count": 2,
+        "commands": [
+            {"action": "SendKey", "keyname": "KEYCODE_DPAD_DOWN"},
+            {"action": "Pause", "time": 1000}
+        ]
+    }
+]

@@ -1,0 +1,5 @@
+{
+  "ip": "100.100.100.100",
+  "cert": "/path to certificate/cert.pem",
+  "commands_file": "commands_file.json"
+}

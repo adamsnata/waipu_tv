@@ -1,0 +1,32 @@
+[
+  {
+    "action": "SendKey",
+    "keyname": "KEYCODE_VOLUME_UP"
+  },
+  {
+    "action": "Pause",
+    "time": 500
+  },
+  {
+    "action": "SendKey",
+    "keyname": "KEYCODE_VOLUME_UP"
+  },
+  {
+    "action": "Pause",
+    "time": 500
+  },
+  {
+    "action": "Repeat",
+    "count": 3,
+    "commands": [
+      {
+        "action": "SendKey",
+        "keyname": "KEYCODE_VOLUME_UP"
+      },
+      {
+        "action": "Pause",
+        "time": 500
+      }
+    ]
+  }
+]
